@@ -16,14 +16,7 @@ body{
 
 .col{
     float: left;
-
-    /* delete margin when you add content */
-
     margin: 1% 0;
-
-    /* uncomment padding when u add content */
-
-    /* padding: 15px 0; */
 }
 
 .container{
@@ -31,6 +24,11 @@ body{
     margin: 0 auto;
     max-width: 2600px;
     min-width: 600px;
+}
+
+H4{
+    padding: 10px 0px;
+    font-weight: bold;
 }
 
 /* HEADER */
@@ -111,18 +109,9 @@ body{
 }
 
 .col.col-left{
-
-    
-    /* delete height, width and margin-right when you add content */
-
     height: 330px;
     width: 19%;
     margin-right: 1%;
-
-    /* uncomment padding-right and width when you add content */
-
-    /* padding-right: 10px;
-    width: 20%; */
 }
 
 #img-1{
@@ -151,21 +140,9 @@ body{
 }
 
 .col.col-right{
-    
-    /* delete height, width and margin-left when you add content */
-    
     height: 330px;
     width: 19%;
     margin-left: 1%;
-    
-    
-
-    
-
-    /* uncomment padding-left and width when you add content */
-
-    /* padding-left: 10px;
-    width: 20%; */
 }
 
 #img-3{
@@ -178,11 +155,20 @@ body{
     overflow: hidden;
 }
 
+.columns p{
+    font-weight: bold;
+    color: rgb(195, 195, 195);
+}
+
 .footer.container{
-    background-color: rgb(136, 1, 254);
+    font-weight: bold;
+    margin: 30px auto;
+    text-align: center;
+}
 
-    /* delete height when adding content */
 
-    height: 50px;
-    margin-top: 5px;
+.footer.container #special-character::after{
+    content: "\2764";
+    color: red;
+    padding-left: 5px;
 }
