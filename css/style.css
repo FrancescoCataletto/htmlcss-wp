@@ -136,9 +136,18 @@ body{
 }
 
 .col.col-middle{
-    background-color: rgb(171, 207, 231);
     height: 330px;
     width: 60%;
+}
+
+#img-2{
+    width: 100%;
+    height: 50%;
+    background-image: url("../img/banner-2.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .col.col-right{
