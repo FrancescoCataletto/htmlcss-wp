@@ -151,7 +151,6 @@ body{
 }
 
 .col.col-right{
-    background-color: rgb(171, 207, 231);
     
     /* delete height, width and margin-left when you add content */
     
@@ -167,6 +166,16 @@ body{
 
     /* padding-left: 10px;
     width: 20%; */
+}
+
+#img-3{
+    width: 100%;
+    height: 50%;
+    background-image: url("../img/img-3.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .footer.container{
