@@ -10,6 +10,10 @@
     clear: both;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .col{
     float: left;
 
@@ -30,11 +34,42 @@
 /* HEADER */
 
 .head.container{
-    background-color: rgb(229, 121, 230);
+    background-color: white;
     height: 100px;
 }
 
-.img{
+#logo{
+    height: 50px;
+    border-right: 1px solid rgb(232, 232, 232);
+    padding-right: 15px;
+}
+
+#logo-line{
+    height: 50px;
+    width: 1px;
+    background-color: rgb(232, 232, 232);
+}
+
+#menu{
+    margin-top: 25px;
+}
+
+#menu li{
+    display: inline-block;
+    text-transform: uppercase;
+    color: rgb(150, 150, 150);
+    margin-right: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.header-background{
+    height: 50px;
+    background-color: white;
+    display: inline-block;
+}
+
+.imag{
     background-color: rgb(225, 214, 122);
     height: 300px;
     margin-top: 20px;
