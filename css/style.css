@@ -44,15 +44,11 @@ H4{
     padding-right: 15px;
 }
 
-#menu{
-    margin-top: 25px;
-}
-
 #menu li{
     display: inline-block;
     text-transform: uppercase;
     color: rgb(150, 150, 150);
-    margin-right: 5px;
+    margin: 25px 5px 0 0;
     font-weight: bold;
     cursor: pointer;
 }
