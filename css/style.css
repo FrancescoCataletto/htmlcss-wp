@@ -57,6 +57,11 @@ H4{
     color: rgb(150, 150, 150);
 }
 
+#menu a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
 .image{
     background-image: url("../img/banner.jpg");
     height: auto;
